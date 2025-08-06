@@ -77,7 +77,7 @@
 
         $res = 1;
 
-        for( $i = 1; $i <= 10; $i++) {
+        for( $i = 1; $i <= $c; $i++) {
             $res = $res * $i;
             echo "<br> $c x $i = " . $res;
             
