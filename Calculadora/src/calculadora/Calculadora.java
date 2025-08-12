@@ -14,7 +14,7 @@ public class Calculadora {
         System.out.println("Digite o numero 02:");
         conta01.setNumero2(teclado.nextDouble());
         
-        System.out.println("Qual a operação: ");
+        System.out.println("Qual a operação (-, +, /, *): ");
         conta01.setOperador(teclado.next());
         
         System.out.println("O resultado foi: " + conta01.resultado());
