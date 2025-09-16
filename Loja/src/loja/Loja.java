@@ -51,7 +51,7 @@ public class Loja {
             
             }
             
-            if(notas[i].getValor() < notas[menorQ].getQuantidade()){
+            if(notas[i].getQuantidade() < notas[menorQ].getQuantidade()){
                 menorQ = i;
             
             }
@@ -70,3 +70,4 @@ public class Loja {
     }
     
 }
+
