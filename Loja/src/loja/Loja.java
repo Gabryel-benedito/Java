@@ -37,7 +37,7 @@ public class Loja {
             
         }
         
-        double mediaVal = 0, mediaQuant = 0, somaV =0, somaQ = 0;
+        double mediaVal, mediaQuant, somaV =0, somaQ = 0;
         int maiorVal = 0, menorVal = 0;
         
         for(int i = 0; i < notas.length; i++){
@@ -70,3 +70,4 @@ public class Loja {
     }
     
 }
+
